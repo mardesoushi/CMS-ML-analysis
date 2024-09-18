@@ -1,8 +1,8 @@
 
 
 # CMS-ML-analysis
-A repository to aggregate some tools for HEP analysis, using ML.
-We are following the contents from the last CMS Open Data School [https://cms-opendata-workshop.github.io/2024-07-29-CERN/]
+A repository to aggregate some tools for HEP analysis using NanoAOD format, also using ML.
+We are following some of the contents from the last CMS Open Data School [https://cms-opendata-workshop.github.io/2024-07-29-CERN/]
 
 
 
