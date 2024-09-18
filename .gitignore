@@ -1,0 +1,4 @@
+*.conf
+
+.cmsml/*
+*.csv
