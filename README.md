@@ -2,50 +2,66 @@
 
 # CMS-ML-analysis
 A repository to aggregate some tools for HEP analysis, using ML.
+We are following the contents from the last CMS Open Data School [https://cms-opendata-workshop.github.io/2024-07-29-CERN/]
 
-# 
 
 
-## Besides the usual python packages, to do an modern analysis, we will need some additional tools.
+## Besides the usual python packages, to do a modern analysis, we will need some additional tools.
 The most important ones are:
 
 - awkward
 - uproot
-- fsspec-xrootd
+- xrootd
 - vector
 - coffea
 
-TODO:
-- [ ] Create a first principles notebook from OpenData School
-
 
 # Requirements
+For these analysis, I used:
 
-- python3.10
+- working PC
+- internet
 - Ubuntu 24.04
-
-$sudo apt-get install cmake
-$sudo apt-get install uuid-dev
-$sudo apt-get install libssl-dev
-$sudo apt-get install xrootd
-
-# Create a virtual enviroment
-
-python -m venv .venv # you can also choose another name, like .cmsml, or .myvenv
-
-## After create the .venv 
-- This could take a while
-
-pip install -r requirements.txt
-!pip install --upgrade pip
-!pip install --upgrade awkward
-!pip install --upgrade uproot
-!pip install --upgrade pandas
-!pip install --upgrade coffea
-!pip install --upgrade matplotlib
-
-# Follow the notebooks
+- python3.10
 
 
-# Create a virtual enviroment
+# Preparation
 
+
+## Install packages
+
+First, if you are not using a docker, install those:
+
+```$ sudo apt-get install cmake  uuid-dev  libssl-dev xrootd-client xrootd-server python3-xrootd```
+
+## Create a virtual enviroment
+
+```python -m venv .venv  ```
+
+You can also choose another name, like ```.cmsml```, or ```.myvenv```
+
+### After the .venv creation 
+
+This could take a while
+
+```$ pip install -r requirements.txt ```
+```$ pip install --upgrade pip```
+```$ pip install --upgrade awkward```
+```$ pip install --upgrade uproot```
+```$ pip install --upgrade pandas```
+```$ pip install --upgrade coffea```
+```$ pip install --upgrade matplotlib```
+
+# Next step: Follow the notebooks
+
+In the ```notebooks``` folder. 
+For this, I recommend using VSCode with Jupyter extensions (my case) or Jupyterlab itself.
+
+
+# TODO:
+- [ ] Create a first principles notebook
+- [ ] Update akward arrays and uproot to coffea
+- [ ] Configure and make functions plots.
+- [ ] Introduce some part of ML prject
+- [ ] Wrapup the main functions in streamlit
+- [ ] Go live.
