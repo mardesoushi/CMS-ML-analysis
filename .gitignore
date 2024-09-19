@@ -2,3 +2,4 @@
 
 .cmsml/*
 *.csv
+*/__pycache__/*

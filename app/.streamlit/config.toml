@@ -24,7 +24,7 @@
 # traceback show in the browser also, but they will be removed in the
 # future.
 # Default: true
-showErrorDetails = false
+showErrorDetails = true
 
 # Change the visibility of items in the toolbar, options menu,
 # and settings dialog (top right of the app).
@@ -109,7 +109,7 @@ runOnSave = true
 # The port where the server will listen for browser connections.
 # Don't use port 3000 which is reserved for internal development.
 # Default: 8501
-# port = '5002'
+port = '5000'
 
 # The base path for the URL where Streamlit should be served from.
 # Default: ""
@@ -147,7 +147,7 @@ enableWebsocketCompression = false
 # Enable serving files from a `static` directory in the running app's
 # directory.
 # Default: false
-enableStaticServing = false
+enableStaticServing = true
 
 # Server certificate file for connecting via HTTPS.
 # Must be set at the same time as "server.sslKeyFile".
@@ -190,7 +190,7 @@ gatherUsageStats = false
 # `server.Port` instead. Don't use port 3000 which is reserved for internal
 # development.
 # Default: whatever value is set in server.port.
-serverPort = 8501
+serverPort = 5000
 
 
 [theme]
@@ -200,13 +200,13 @@ serverPort = 8501
 base = "dark"
 
 # Primary accent color for interactive elements.
-#primaryColor = '#db1f27'
+primaryColor = '#982931'
 
 # Background color for the main content area.
 #backgroundColor = '#ffffff'
 
 # Background color used for the sidebar and most interactive widgets.
-secondaryBackgroundColor = '#eaeaea' 
+# secondaryBackgroundColor = '#eaeaea' 
 #'#404041' cinza escuro nikkei
 
 # Color used for almost all text.
