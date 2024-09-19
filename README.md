@@ -60,8 +60,8 @@ For this, I recommend using VSCode with Jupyter extensions (my case) or Jupyterl
 
 # TODO:
 - [ ] Create a first principles notebook
-- [ ] Update akward arrays and uproot to coffea
+- [ ] Update akward arrays and uproot to coffea [?]
 - [ ] Configure and make functions plots.
-- [ ] Introduce some part of ML prject
-- [ ] Wrapup the main functions in streamlit
-- [ ] Go live.
+- [ ] Introduce some part of ML prject.
+- [X] Wrapup the main functions in streamlit
+- [X] Go live.
