@@ -147,7 +147,7 @@ enableWebsocketCompression = false
 # Enable serving files from a `static` directory in the running app's
 # directory.
 # Default: false
-enableStaticServing = true
+enableStaticServing = false
 
 # Server certificate file for connecting via HTTPS.
 # Must be set at the same time as "server.sslKeyFile".
