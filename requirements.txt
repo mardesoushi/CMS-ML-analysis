@@ -83,7 +83,7 @@ matplotlib-inline==0.1.6
 mdurl==0.1.2
 minio==5.0.10
 mistune==2.0.5
-mplhep==0.3.26
+mplhep==0.3.52
 mplhep-data==0.0.3
 msgpack==1.0.5
 multidict==6.0.4
@@ -186,3 +186,12 @@ streamlit-analytics
 fsspec-xrootd
 vector
 xrootd
+tensorflow==2.11.1
+pytorch
+cernopendata-client==0.4.0
+qkeras==0.9.0
+hls4ml
+h5py
+mplhep
+pydot
+graphviz

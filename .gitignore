@@ -1,5 +1,11 @@
 *.conf
-
+*.h5
+*.png
+*checkpoint
+*.gz
+*.pickle
+*ckpt*
 .cmsml/*
 *.csv
 */__pycache__/*
+notebooks/baseline_ae.weights.h5
