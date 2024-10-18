@@ -9,3 +9,8 @@
 *.csv
 */__pycache__/*
 notebooks/baseline_ae.weights.h5
+*/data/*
+*.pkl
+*.pth
+*.root
+*-ubyte

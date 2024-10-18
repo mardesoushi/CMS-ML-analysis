@@ -13,25 +13,36 @@ st.set_page_config(page_title="CMS Open Data", page_icon=":bar_chart:", layout="
 
 
 
+
+
+
+
+
+
 def get_page():
     'Seleciona a pagina de acordo com a pagina atual, se a pagina selecionada for diferente, muda de pagina'
 
     pages_list = []
     start = st.Page("pagination/home.py", title="Home", icon=':material/home:')
-    data_selection_pg = st.Page("pagination/data-selection.py", title="Data Selection", icon=':material/account_tree:')
-    ml_demo_pg = st.Page("pagination/ml-demo.py", title="ML Demo", icon=':material/psychology:')
+    data_selection_pg = st.Page("pagination/data-selection.py", title="Data Selection", icon=':material/checklist:')
+    ml_data_pg = st.Page("pagination/ml-data-prepare.py", title="ML Data Preparation", icon=':material/account_tree:')
+    ml_exec_pg = st.Page("pagination/ml-execution.py", title="ML Execution", icon=':material/fast_forward:')
 
     
     ## Acesso do paciente:manufacturing
     pages_list.append(start)
     pages_list.append(data_selection_pg)
-    pages_list.append(ml_demo_pg)
+    pages_list.append(ml_data_pg)
+    pages_list.append(ml_exec_pg)
 
     pg = st.navigation(pages_list)
 
     pg.run()
 
     return pg
+
+
+
 
 def get_logo_sidebar():
     '''Insere a logo na barra lateral com um tamanho maior'''
