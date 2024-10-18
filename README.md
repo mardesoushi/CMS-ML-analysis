@@ -1,4 +1,9 @@
-
+# TODO:
+- [ ] Configure the model architecture
+- [ ] Get better results
+- [ ] Choose and work with a MET dataset
+- [ ] Mono photon signal detection
+- [ ] Configure and make functions plots.
 
 # CMS-ML-analysis
 A repository to aggregate some tools for HEP analysis using NanoAOD format, also using ML.
@@ -58,10 +63,3 @@ In the ```notebooks``` folder.
 For this, I recommend using VSCode with Jupyter extensions (my case) or Jupyterlab itself.
 
 
-# TODO:
-- [ ] Create a first principles notebook
-- [ ] Update akward arrays and uproot to coffea [?]
-- [ ] Configure and make functions plots.
-- [ ] Introduce some part of ML prject.
-- [X] Wrapup the main functions in streamlit
-- [X] Go live.
